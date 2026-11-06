@@ -1,5 +1,7 @@
 # 写作、分镜与插画
 
+开工前按SKILL入口读取同目录可选的 `local-preferences.json`，沿用其私有 `output_root` 与 `series_project`；用户本轮明确路径优先。该文件与实际家庭目录不得进入公开GitHub或可分享Skill包。
+
 ## 正文结构
 
 第一轮默认8页正文，不计封面与给家长的词汇页。约40—80个英文词是初始创作参考，不必为凑字数扩写；中文陪读允许更完整的因果。让英语集中在角色真正需要的请求、回应和协商上。
@@ -26,7 +28,7 @@
 3. 一个不考查的亲子游戏，例如把玩具藏在盒子里，一人请求、一人打开；孩子可以只做动作。
 4. 下集预告一句，不提前宣告词汇表。
 5. 给家长：新目标词、复现词、支架语、尚未解决的线索、可选阅读反馈；写入状态前逐项核对。
-6. 请求出图时按下节核验固定母版，传入真实参考图并完成图文排版，交付A4 PDF与每页带字PNG；只请求故事时不自动批量出图。
+6. 请求出图时按下节核验固定母版，传入真实参考图并完成全页A4插画内的中英排版，交付PDF与每页自带字PNG；只请求故事时不自动批量出图。
 
 ## 人物与画风连续
 
@@ -38,13 +40,15 @@
 
 基础提示词（按当前画面补全，不作为已生成图片）：
 
-> Original cute children's picture-book illustration, rounded shapes, soft gouache with subtle crayon outlines, warm cream paper texture, gentle bright colours, expressive faces, uncluttered setting, one clear action. Tuan: a cream-brown round-eared bear in butter-yellow overalls, a leaf pocket on the left chest. Mimi: a white lop-eared rabbit with a pale grey left ear tip, a short mint scarf and a small orange crossbody bag. Gulu: a cornflower-blue bread-shaped little mail van, cream roof, two warm-yellow round headlights and a white leaf emblem on the door. Keep proportions and clothing consistent with the supplied reference image. [Scene, action, target objects, camera angle, composition.] Leave a clean quiet area for later typesetting. No baked-in text or watermark.
+> Original cute children's picture-book illustration, rounded shapes, soft gouache with subtle crayon outlines, warm cream paper texture, gentle bright colours, expressive faces, uncluttered setting, one clear action. Tuan: a cream-brown round-eared bear in butter-yellow overalls, a leaf pocket on the left chest. Mimi: a white lop-eared rabbit with a pale grey left ear tip, a short mint scarf and a small orange crossbody bag. Gulu: a cornflower-blue bread-shaped little mail van, cream roof, two warm-yellow round headlights and a white leaf emblem on the door. Keep proportions and clothing consistent with the supplied reference image. [Scene, action, target objects, camera angle, composition.] A4 portrait composition, 210:297 aspect ratio, one continuous illustration covering the entire page. Reserve natural light-coloured areas within the scene and optional character speech bubbles for later Chinese story text and English dialogue. Keep text areas, faces and target objects inside a 12–15 mm print-safe zone. No separate white caption strip or top-image/bottom-text layout. No baked-in text or watermark.
 
-插画可采用适合构图的方形画面，但默认完整成品采用 **A4竖版（210 × 297 mm）的可打印PDF，以及按页导出的带字PNG**；用户指定其他尺寸时从其选择。让目标物体清楚可指认，不为漂亮而缩到背景。每页同时排好英语对话和自然中文陪读，英语优先醒目；不把单独的无字插图作为最终绘本，不要求家长自己添加文本。
+默认完整成品采用 **A4竖版（210 × 297 mm）的全页插画PDF，以及按页导出的自带字PNG**；用户明确指定其他尺寸时从其选择。整页从上到下、从左到右都是同一场景的插画背景，中文故事与英语对话直接融入画内的气泡、浅色墙面、天空或地面留白。禁止默认采用“上图下文”的底部白色文字栏，也不把方形插图贴在A4上再用一块文字区补足空白。让目标物体清楚可指认，不为漂亮而缩到背景；不把无字插图当最终成品，不要求家长添加文本。
 
-插画生成时可以无字，随后用可编辑文本与可用中文字体统一排版；PDF嵌入字体，PNG应呈现同一份排版。正文建议英语至少22 pt、中文至少16 pt，按页留白和文本长度调整，避免硬塞长段落；正文、页码和关键画面距纸边至少12 mm。默认不做必须无边距打印的满版内容，不裁掉人物、目标物或文字。
+先按A4竖版比例设计人物、动作和画内文字的空间。若原图是方形或比例不合，不能沿单一方向强拉伸；用图像生成工具在固定母版参考下扩展或重构场景到A4比例，只有不影响人物、目标物与文字留白的边缘才可少量等比裁切。不要以大片白底或装饰画框代替需要补画的背景。
 
-导出后逐页渲染检查：英文准确、中文无缺字、图文不遮挡、打印边距足够、正文和PNG页序一致、每页PNG确实包含两种语言。检查通过后交付可直接打印的PDF和带字PNG文件，原始无字插画只作为可选附属资产。仅交付分镜或提示词时明确尚未完成图像与成品排版。
+插画生成时可以无字，再用文档或图像排版工具，把清晰、可编辑的英语和中文放入预留的画内区域；文字层叠加不等于另开页外文字栏。用可用中文字体，PDF嵌入字体，PNG呈现同一份带字排版。正文建议英语至少22 pt、中文至少16 pt；文本过多时精简陪读或重构画面，不硬塞长段落。背景铺满A4画布，文字、页码、人物脸部和核心目标物距纸边保留12—15 mm打印安全区。
+
+导出后逐页渲染检查：A4整页插画背景连续、角色没有因拉伸变形、英文准确、中文无缺字、中英文字均在画内且不遮挡动作、没有底部白色文字栏、打印安全区足够、PDF与PNG内容和页序一致。检查通过后交付可直接打印的PDF和每页自带字PNG，原始无字插画只作为可选附属资产。仅交付分镜或提示词时明确尚未完成图像与成品排版。
 
 先检查一两页实际效果再继续整集，减少角色漂移；每次调用仍传入同一母版。检查耳朵、口袋、围巾、邮车颜色、角色比例、道具位置，以及画面能否支持对白中的数量、动作和词义。发现偏离时用同一母版修改当页，不另造新母版。
 
