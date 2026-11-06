@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "series_id": "yaya-town-gulu",
+  "title": "芽芽镇的咕噜邮车",
+  "curriculum": {
+    "label": "人教版PEP小学英语三年级起点（三至六年级上下册；书系与版次待核）",
+    "edition_status": "pending",
+    "corpus_frozen": false,
+    "books_expected": [
+      "三年级上册",
+      "三年级下册",
+      "四年级上册",
+      "四年级下册",
+      "五年级上册",
+      "五年级下册",
+      "六年级上册",
+      "六年级下册"
+    ],
+    "books_verified": [],
+    "editions_by_book": {
+      "三年级上册": null,
+      "三年级下册": null,
+      "四年级上册": null,
+      "四年级下册": null,
+      "五年级上册": null,
+      "五年级下册": null,
+      "六年级上册": null,
+      "六年级下册": null
+    }
+  },
+  "episodes": [
+    {
+      "id": "S01E01",
+      "status": "planned",
+      "artifact": "episodes/S01E01.json",
+      "new_targets": [
+        "v-door",
+        "v-open",
+        "v-box"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E02",
+      "status": "planned",
+      "artifact": "episodes/S01E02.json",
+      "new_targets": [
+        "v-red",
+        "v-blue",
+        "v-yellow"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E03",
+      "status": "planned",
+      "artifact": "episodes/S01E03.json",
+      "new_targets": [
+        "v-bag",
+        "v-book",
+        "v-pencil"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E04",
+      "status": "planned",
+      "artifact": "episodes/S01E04.json",
+      "new_targets": [
+        "v-dog",
+        "v-cat",
+        "v-duck"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E05",
+      "status": "planned",
+      "artifact": "episodes/S01E05.json",
+      "new_targets": [
+        "v-apple",
+        "v-banana",
+        "v-orange-fruit"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E06",
+      "status": "planned",
+      "artifact": "episodes/S01E06.json",
+      "new_targets": [],
+      "review_targets": []
+    },
+    {
+      "id": "S01E07",
+      "status": "planned",
+      "artifact": "episodes/S01E07.json",
+      "new_targets": [
+        "v-cup",
+        "v-water",
+        "v-milk"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E08",
+      "status": "planned",
+      "artifact": "episodes/S01E08.json",
+      "new_targets": [
+        "v-hat",
+        "v-shoes",
+        "v-dress"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E09",
+      "status": "planned",
+      "artifact": "episodes/S01E09.json",
+      "new_targets": [
+        "v-run",
+        "v-jump",
+        "v-walk"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E10",
+      "status": "planned",
+      "artifact": "episodes/S01E10.json",
+      "new_targets": [
+        "v-big",
+        "v-small",
+        "v-ball"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E11",
+      "status": "planned",
+      "artifact": "episodes/S01E11.json",
+      "new_targets": [
+        "v-sun",
+        "v-rain",
+        "v-umbrella"
+      ],
+      "review_targets": []
+    },
+    {
+      "id": "S01E12",
+      "status": "planned",
+      "artifact": "episodes/S01E12.json",
+      "new_targets": [],
+      "review_targets": []
+    }
+  ],
+  "continuity": {
+    "current_place": "芽芽镇团团家，第一集尚未开始",
+    "last_episode_summary": null,
+    "important_objects": [],
+    "resolved_events": [],
+    "open_hooks": [],
+    "next_task": "发现门外会咕噜叫的盒子"
+  },
+  "visual": {
+    "character_reference_files": [],
+    "appearance_changes": [],
+    "image_status": "none",
+    "image_files": []
+  },
+  "bridge_language": [],
+  "review_due": [],
+  "parent_observations": [],
+  "next_episode": 1
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "芽芽镇英语冒险绘本"
+  short_description: "为四岁孩子持续创作可爱英语对话绘本，按词表安排新词、复习与续集"
+  default_prompt: "使用 $storybook-english-series，为我4岁的孩子规划并续写《芽芽镇的咕噜邮车》，每集3个新目标词，保持角色、画风与故事连续。"
