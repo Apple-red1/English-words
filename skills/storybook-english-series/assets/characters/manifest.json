@@ -6,9 +6,14 @@
   "sha256": "fd3bde427965a573f2f81390dc1c3955cd39655e7393d157063a8335cf593a1c",
   "mime_type": "image/png",
   "repository": "Apple-red1/English-words",
-  "git_ref": "main",
+  "git_ref": "2da316b2d4b6f9b602b206769f09e374e101d3ba",
   "repository_path": "skills/storybook-english-series/assets/characters/characters-v1.png",
-  "raw_url": "https://raw.githubusercontent.com/Apple-red1/English-words/main/skills/storybook-english-series/assets/characters/characters-v1.png",
-  "characters": ["Tuan", "Mimi", "Gulu"],
+  "raw_url": "https://raw.githubusercontent.com/Apple-red1/English-words/2da316b2d4b6f9b602b206769f09e374e101d3ba/skills/storybook-english-series/assets/characters/characters-v1.png",
+  "characters": [
+    "Tuan",
+    "Mimi",
+    "Gulu"
+  ],
   "change_policy": "New versions require an explicit user request; retain previous images and manifests."
 }
+
